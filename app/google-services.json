@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1077035562814",
+    "project_id": "awesomefirechat-16da6",
+    "storage_bucket": "awesomefirechat-16da6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077035562814:android:b31aa968afa11004675e6f",
+        "android_client_info": {
+          "package_name": "android.example.awesomefirechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077035562814-pvmnm9ojphq0k5vj7l8t6rabrg1s70ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.awesomefirechat",
+            "certificate_hash": "2391429e9b513fe517661a77dbea50f3b2194ef8"
+          }
+        },
+        {
+          "client_id": "1077035562814-l80jns84od5qcsdflqi03uckd3revog6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOE0TPYnuhGM2YrdyI72DoUhiC54zwaNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077035562814-l80jns84od5qcsdflqi03uckd3revog6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".ChatActivity">
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_above="@id/sendMessageLayout"
+        android:layout_width="match_parent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/message_item"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:stackFromBottom="true"
+        android:divider="@android:color/transparent"/>
+
+    <LinearLayout
+        android:id="@+id/sendMessageLayout"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/sendPhotoButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_baseline_insert_photo_24"/>
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:inputType="textCapSentences"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/sendMessageButton"
+            android:enabled="false"
+            android:text="send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
